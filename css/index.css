@@ -1,0 +1,51 @@
+
+.jumbotron{
+    text-align: center;
+    margin-top: 60px;
+    background-color:#e3e3e3;
+}
+.jumbotron p{
+    font-size: 15px;
+}
+
+.col-sm{
+    text-align:center;
+}
+
+.w-100{
+    width: 100% !important;
+    height: 60vh !important;
+}
+
+.card-group{
+    padding-right:20px;
+    padding-left:20px;
+    
+}
+input{
+    align-content: center;
+}
+.footer{
+    background-color: #e3e3e3;
+    padding-top:20px;
+    margin-top: 65px;
+   
+}
+.footer a{
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: #e3e3e3;
+    width:100%SS
+}
+.modal-dialog{
+    padding:8%;
+}
+.modal-body{
+background-color: cornflowerblue;
+}
+.modal-body a{
+    color:black;
+}
+.address{
+    font-size:20px;
+}
