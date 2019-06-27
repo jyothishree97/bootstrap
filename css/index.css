@@ -1,11 +1,12 @@
 
 .jumbotron{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 20px;
     background-color:#e3e3e3;
 }
 .jumbotron p{
-    font-size: 15px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .col-sm{
@@ -28,14 +29,14 @@ input{
 .footer{
     background-color: #e3e3e3;
     padding-top:20px;
-    margin-top: 65px;
+    margin-top: 60px;
    
 }
 .footer a{
     font-size: 20px;
     margin-right: 10px;
     background-color: #e3e3e3;
-    width:100%SS
+    width:100%;
 }
 .modal-dialog{
     padding:8%;
@@ -49,3 +50,28 @@ background-color: cornflowerblue;
 .address{
     font-size:20px;
 }
+/* Style the tab buttons */
+
+.tabcontent {
+    color: blue;
+    display: none;
+    padding: 50px;
+    text-align: center;
+  }
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  .tablink:hover {
+    background-color: #777;
+  }
+#pizza {background-color:red;}
+#burger{background-color:green;}
+#bread{background-color:blue;}
