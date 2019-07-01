@@ -58,20 +58,7 @@ background-color: cornflowerblue;
     padding: 50px;
     text-align: center;
   }
-  .tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
-  }
+  
   .tablink:hover {
     background-color: #777;
   }
-#pizza {background-color:red;}
-#burger{background-color:green;}
-#bread{background-color:blue;}
