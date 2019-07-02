@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <title>Bakery</title>
 </head>
 
@@ -87,7 +88,7 @@
   <!--end nav-->
 
 
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -112,11 +113,11 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
+  </section>
 
   <!--jumbotron begin-->
-  
-    <div class="jumbotron">
+    <main>
+    <section class="jumbotron">
 
       <h1 class="display-4">About</h1>
       <p class="lead">We’ve baked every item from the core of our heart to serve you</p>
@@ -146,15 +147,16 @@
           </div>
         </div>
       </div>
-    </div>
-  
+    </section>
+  </main>
   <!--jumbotron end-->
 
 
   <br />
   <h1>Food Varieties</h1>
   <!--grid begin-->
-  <div class="grid">
+  <section class="grid">
+    <article>
     <div class="row no-gutters">
       <div class="col-sm">
 
@@ -168,36 +170,38 @@
         <h5>Burger</h5>
       </div>
     </div>
-  </div>
+  </article>
+  </section>
   <!--grid end-->
 
   <!--cardlayout start-->
-  <div class="card-group">
-    <div class="card">
+  <section class="card-group">
+    <section class="card">
       <img src="./img/c1 (1).jpg" class="card-img-top" style="height:40vh" alt="pizza">
       <div class="card-body">
         <p class="card-text">This is not a Indian Food<br />It is a fast food</p>
 
       </div>
-    </div>
-    <div class="card">
+    </section>
+    <section class="card">
       <img src="./img/c2.jpg" class="card-img-top" style="height:40vh" alt="Bread">
       <div class="card-body">
         <p class="card-text">Bread is prepared by using Wheat</p>
 
-      </div>
+      </section>
     </div>
-    <div class="card">
+    <section class="card">
       <img src="./img/c3.jpg" class="card-img-top" style="height:40vh" alt="Burger">
       <div class="card-body">
         <p class="card-text">There will be wide Varieties of burgers are available</p>
 
       </div>
-    </div>
-  </div>
+    </section>
+  </section>
   <!--cardlayout end-->
 
-  <div class="container">
+  <section class="container">
+    
     <div id="pizza" class="tabcontent">
       <h1>pizza</h1>
       <p>Not a Indian food.</p>
@@ -212,13 +216,13 @@
       <h1>Bread</h1>
       <p>Preapared by using wheat.</p>
     </div>
-
+  
 
 
     <button class="tablink" onclick="openCity('pizza', this, 'orange')" id="defaultOpen">Pizza</button>
     <button class="tablink" onclick="openCity('burger', this, 'green')">Burger</button>
     <button class="tablink" onclick="openCity('bread', this, 'blue')">Bread</button>
-  </div>
+  </section>
   <script>
     function openCity(cityName, elmnt, color) {
       // Hide all elements with class="tabcontent" by default */
@@ -249,12 +253,12 @@
 
 
   <!-- Footer Links -->
-  <div class="container text-center text-md-left">
+  <section class="container text-center text-md-left">
     <section class="footer">
       <div class="container">
         <div class="row py-3">
           <div class="col-12 col-md-6 col-lg-6">
-            <p class="address"><strong>Located At:</strong> <a href="https://goo.gl/maps/Py9DUictnnkkjbMU9"
+            <p class="fonts">Located At: <a href="https://goo.gl/maps/Py9DUictnnkkjbMU9"
                 target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></p>
           </div>
           <div class="col-12 col-md-6 col-lg-6">
@@ -264,7 +268,7 @@
             <a href="#"><i class="fa fa-twitter-square"></i></a>
             <a href="#"><i class="fa fa-youtube"></i></a></div>
         </div>
-      </div>
+      </section>
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2019 Copyright:<a href="/" style="color:black">Services</a>|
         <a href="/" style="color:black">About Us</a>
